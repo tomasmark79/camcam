@@ -2,7 +2,6 @@
 
 CamCam is HowTo how to use RaspBerry computer with WebCam.
 
-Preparing awesome MotionPlus project for manage your WebCam
 ```
     Tested by me with a RaspBerry Pi4B - PI OS - Debian BullsEye 32bit arm.
     Tested by me with noname WebCam attached to the USB2.0 port.
@@ -11,7 +10,7 @@ Install basic build packages:
 ```
     sudo apt install autoconf automake autopoint build-essential pkgconf libtool libzip-dev libjpeg-dev git libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev libwebp-dev gettext libmicrohttpd-dev libmariadb-dev libasound2-dev libfftw3-dev
 ```
-Clone repository:
+Clone repository from https://github.com/Motion-Project/motionplus:
 ```
     git clone --recursive https://github.com/Motion-Project/motionplus.git
 ```
@@ -42,7 +41,3 @@ web access
     open url in your web browser "192.168.x.y:8085"
 ```
 Enjoy :-)
-
-
-
-
